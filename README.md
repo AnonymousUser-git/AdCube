@@ -1,4 +1,4 @@
-AdCube
+## AdCube
 
 **AdCube** is a JavaScript library that <u>effectively prevent threats from third-party advertising (ad) services in WebVR environments.</u> It protects first-party sensitive resources by sandboxing ad-serving JS scripts so that ad scripts in WebVR cannot conduct malicious attacks (e.g. *Blind spot tracking attack*, *Gaze and Controller cursor jacking attack*, *Auxiliary display attack*). It is designed to impose a neglible peformace overhaed ro a WebVR website. A detailed description of this technique can be found in the submission.
 
@@ -8,7 +8,7 @@ AdCube
 
 See section [Presented Attacks & Defense](#presented-attacks--defense) for examples of attacks.
 
-## Ads Showcase
+## Ad Showcase
 
 This is an example of AdCube applied. Each ad is contained in a cube and cannot execute malicious scripts.
 
