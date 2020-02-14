@@ -1,16 +1,16 @@
 ## AdCube
 
-**AdCube** is a JavaScript library that <u>effectively prevent threats from third-party advertising (ad) services in WebVR environments.</u> It protects first-party sensitive resources by sandboxing ad-serving JS scripts so that ad scripts in WebVR cannot conduct malicious attacks (e.g. *Blind spot tracking attack*, *Gaze and Controller cursor jacking attack*, *Auxiliary display attack*). It is designed to impose a neglible peformace overhaed ro a WebVR website. A detailed description of this technique can be found in the submission.
+**AdCube** is a JavaScript library that <u>effectively prevents threats from third-party advertising (ad) services in WebVR environments.</u> It protects first-party sensitive resources by sandboxing ad-serving JS scripts so that ad scripts in WebVR cannot conduct malicious attacks (e.g. *Blind spot tracking attack*, *Gaze and Controller cursor jacking attack*, *Auxiliary display attack*). It is designed to impose a negligible performance overhead to a WebVR website. A detailed description of this technique can be found in the submission.
 
 - Blind spot tracking attack: A malicious ad service provider places ad objects in the opposite direction of a user's current sight.
-- Gaze and Controller cursor jacking attack: These two attacks allow the third-party library to create another fake input channel, such as gaze-cursor or controller, to trick users in VR scene and make one input invisible. An attacker can exploit this hidden input in an ad fraud attack when user enjoys the VR game with another visible input. 
+- Gaze and Controller cursor jacking attack: These two attacks allow the third-party library to create another fake input channel, such as gaze-cursor or controller, to trick users in VR scene and make one input invisible. An attacker can exploit this hidden input in an ad fraud attack when a user enjoys the VR game with another visible input. 
 - Auxiliary display attack: Exploits the inability of the users to view the main display when the user enters VR mode.
 
 See section [Presented Attacks & Defense](#presented-attacks--defense) for examples of attacks.
 
 ## Ad Showcase
 
-This is an example of AdCube applied. Each ad is confined within a cube, and each third-party script is sandboxed via AdCube. [Watch high quality video](https://youtu.be/UpUIjP8v58s)
+This is an example of AdCube applied. Each ad is confined within a cube, and each third-party script is sandboxed via AdCube. [Watch the high-quality video](https://youtu.be/UpUIjP8v58s)
 
 ![showcase](img/showcase.gif)
 
