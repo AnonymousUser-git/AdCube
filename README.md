@@ -1,6 +1,6 @@
 AdCube
 
-**AdCube** is a JavaScript library that <u>effectively blocks threats to users through third-party advertising in the WebVR environment.</u> This protects users by sandboxing so that advertisements contained in WebVR can't execute malicious JavaScript (e.g. *Blind spot tracking attack*, *Gaze and Controller cursor jacking attack*, *Auxiliary display attack*). It is designed not to degrade the performance of the client-side even if this technology is applied. A detailed description of this technique can be found in the paper.
+**AdCube** is a JavaScript library that <u>effectively prevent threats from third-party advertising (ad) services in WebVR environments.</u> It protects first-party sensitive resources by sandboxing ad-serving JS scripts so that ad scripts in WebVR cannot conduct malicious attacks (e.g. *Blind spot tracking attack*, *Gaze and Controller cursor jacking attack*, *Auxiliary display attack*). It is designed to impose a neglible peformace overhaed ro a WebVR website. A detailed description of this technique can be found in the submission.
 
 - Blind spot tracking attack: A malicious ad service provider places ad objects in the opposite direction of a user's current sight.
 - Gaze and Controller cursor jacking attack: These two attacks allow the third-party library to create another fake input channel, such as gaze-cursor or controller, to trick users in VR scene and make one input invisible. An attacker can exploit this hidden input in an ad fraud attack when user enjoys the VR game with another visible input. 
