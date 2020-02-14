@@ -10,7 +10,7 @@ See section [Presented Attacks & Defense](#presented-attacks--defense) for examp
 
 ## Ad Showcase
 
-This is an example of AdCube applied. Each ad is confined within a cube, and each third-party script is sandboxed via AdCube.
+This is an example of AdCube applied. Each ad is confined within a cube, and each third-party script is sandboxed via AdCube. [Watch high quality video](https://youtu.be/UpUIjP8v58s)
 
 ![showcase](img/showcase.gif)
 
